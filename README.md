@@ -1,6 +1,6 @@
 # RoutineHubDocs - API
 
-`Root URL: [https://routinehub.co/api/v1/](https://routinehub.co/api/v1/)`
+`Root URL: https://routinehub.co/api/v1/`
 
 All API endpoints are based on the root url. 
 
