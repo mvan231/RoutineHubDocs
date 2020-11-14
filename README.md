@@ -11,7 +11,7 @@ All API endpoints are based on the root url.
 >   * [Revoke Key](#revoke-key)<br>
 >   * [Storage](#storage)<br>
 > * [GET Endpoints](#get-endpoints)<br>
->   * [List User's Shortcuts](#list-user's-shortcuts)<br>
+>   * [List User Shortcuts](#list-user-shortcuts)<br>
 >   * [Get latest Shortcut version](#get-latest-shortcut-version)<br>
 > * [POST Endpoints](#post-endpoints)<br>
 >   * [Create Shortcut version](#create-shortcut-version)<br>
@@ -33,7 +33,7 @@ It is Preferred that this be stored locally to the user's system and not on your
 
 ## Endpoints:
 
-### List User's Shortcuts
+### List User Shortcuts
 `GET 'api/v1/<api_key>/shortcuts'`
 
 Simply retrieves a list of the user's shortcuts with their IDs and whether it's published or not.
