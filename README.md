@@ -21,12 +21,15 @@ Parameters:
 
 ## Publish Shortcut
 > POST 'api/v1/<api_key>/shortcuts/<shortcut_id>/publish'
+
 Changes the publish status of a shortcut to True.
 
 ## Unpublish Shortcut
 > POST 'api/v1/<api_key>/shortcuts/<shortcut_id>/unpublish'
+
 Changes the publish status of a shortcut to False.
 
 ## Get latest Shortcut version
 > GET 'api/v1/shortcuts/<shortcut_id>/versions/latest'
+
 Gets the latest version of a shortcut. No api key needed.
