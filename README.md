@@ -12,7 +12,7 @@ All API endpoints are based on the root url.
 >   * [Storage](#storage)<br>
 > * [GET Endpoints](#get-endpoints)<br>
 >   * [List User Shortcuts](#list-user-shortcuts)<br>
->   * [Get latest Shortcut version](#get-latest-shortcut-version)<br>
+>   * [Get Latest Shortcut Version Info](#get-latest-shortcut-version)<br>
 > * [POST Endpoints](#post-endpoints)<br>
 >   * [Create Shortcut version](#create-shortcut-version)<br>
 >   * [Publish Shortcut](#publish-shortcut)<br>
@@ -31,12 +31,19 @@ It is not currently possible to revoke a key, but if you generate a new key, the
 It is Preferred that this be stored locally to the user's system and not on your servers anywhere.
 
 
-## Endpoints:
+## Get Endpoints:
 
 ### List User Shortcuts
 `GET 'api/v1/<api_key>/shortcuts'`
 
 Simply retrieves a list of the user's shortcuts with their IDs and whether it's published or not.
+
+### Get latest Shortcut version
+`GET 'api/v1/shortcuts/<shortcut_id>/versions/latest'`
+
+Gets the latest version of a shortcut. No api key needed.
+
+## POST Endpoints
 
 ### Create Shortcut version
 `POST 'api/v1/<api_key>/shortcuts/<shortcut_id>/versions/create'`
@@ -58,7 +65,4 @@ Changes the publish status of a shortcut to True.
 
 Changes the publish status of a shortcut to False.
 
-### Get latest Shortcut version
-`GET 'api/v1/shortcuts/<shortcut_id>/versions/latest'`
 
-Gets the latest version of a shortcut. No api key needed.
