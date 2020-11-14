@@ -40,7 +40,7 @@ It is not currently possible to revoke a key, but if you generate a new key, the
 It is Preferred that this be stored locally to the user's system and not on your servers anywhere.
 
 
-## Get Endpoints:
+## GET Endpoints
 
 ### List User Shortcuts
 `GET 'api/v1/<api_key>/shortcuts'`
