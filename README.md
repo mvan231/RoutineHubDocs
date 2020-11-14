@@ -27,7 +27,7 @@ To find this ID after creating the shortcut on RoutineHub, tap/click on the addr
 Example: https://routinehub.co/shortcut/7388/version/create<br>
 RoutineHub Shortcut ID: 7388
 
-
+-----
 ## API Key
 
 ### Key Generation
@@ -39,7 +39,7 @@ It is not currently possible to revoke a key, but if you generate a new key, the
 ### Storage
 It is Preferred that this be stored locally to the user's system and not on your servers anywhere.
 
-
+----
 ## GET Endpoints
 
 ### List User Shortcuts
@@ -52,6 +52,7 @@ Simply retrieves a list of the user's shortcuts with their IDs and whether it's 
 
 Gets the latest version of a shortcut. No api key needed.
 
+-----
 ## POST Endpoints
 
 ### Create Shortcut version
