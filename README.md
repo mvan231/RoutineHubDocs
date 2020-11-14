@@ -6,16 +6,18 @@ All API endpoints are based on the root url.
 
 ##### Table of Content
 
-> [API Key](#api-key)<br>
-> [Generation](#generation)<br>
-> [Revoke Key](#revoke-key)<br>
-> [Storage](#storage)<br>
-> [Endpoints](#endpoints)<br>
-> [List User's Shortcuts](#list-users-shortcuts)<br>
-> [Create Shortcut version](#create-shortcut-version)<br>
-> [Publish Shortcut](#publish-shortcut)<br>
-> [Unpublish Shortcut](#unpublish-shortcut)<br>
-> [Get latest Shortcut version](#get-latest-shortcut-version)<br>
+> * [API Key](#api-key)<br>
+>   * [Generation](#generation)<br>
+>   * [Revoke Key](#revoke-key)<br>
+>   * [Storage](#storage)<br>
+> * [GET Endpoints](#get-endpoints)<br>
+>   * [List User's Shortcuts](#list-user's-shortcuts)<br>
+>   * [Get latest Shortcut version](#get-latest-shortcut-version)<br>
+> * [POST Endpoints](#post-endpoints)<br>
+>   * [Create Shortcut version](#create-shortcut-version)<br>
+>   * [Publish Shortcut](#publish-shortcut)<br>
+>   * [Unpublish Shortcut](#unpublish-shortcut)<br>
+
 
 ## API Key
 
