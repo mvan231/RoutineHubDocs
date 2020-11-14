@@ -7,7 +7,7 @@ All API endpoints are based on the root url.
 ##### Table of Content
 
 > * [API Key](#api-key)<br>
->   * [Generation](#generation)<br>
+>   * [Key Generation](#key-generation)<br>
 >   * [Revoke Key](#revoke-key)<br>
 >   * [Storage](#storage)<br>
 > * [GET Endpoints](#get-endpoints)<br>
@@ -21,7 +21,7 @@ All API endpoints are based on the root url.
 
 ## API Key
 
-### Generation
+### Key Generation
 Where the {api_key} is needed, the user has to generate the key. This can be done from the RoutineHub settings page. 
 
 ### Revoke Key
