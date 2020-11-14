@@ -6,6 +6,7 @@ All API endpoints are based on the root url.
 
 ##### Table of Content
 
+> * [Shortcut ID](#shortcut-id)
 > * [API Key](#api-key)<br>
 >   * [Key Generation](#key-generation)<br>
 >   * [Revoke Key](#revoke-key)<br>
