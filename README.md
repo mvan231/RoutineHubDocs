@@ -4,6 +4,8 @@ Root URL: `https://routinehub.co/api/v1/`
 
 All API endpoints are based on the root url. 
 
+**Note:** This documentation is for v1 of the API. The new v2 has not been released yet. 
+
 ##### Table of Content
 
 > * [Shortcut ID](#shortcut-id)
