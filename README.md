@@ -4,7 +4,16 @@
 
 All API endpoints are based on the root url. 
 
-__TOC__
+[API Key](#api-key)
+[Generation](#generation)
+[Revoke Key](#revoke-key)
+[Storage](#storage)
+[Endpoints](#endpoints)
+[List User's Shortcuts](#list-user's-shortcuts)
+[Create Shortcut version](#create-shortcut-version)
+[Publish Shortcut](#publish-shortcut)
+[Unpublish Shortcut](#unpublish-shortcut)
+[Get latest Shortcut version](#get-latest-shortcut-version)
 
 ## API Key
 
@@ -14,7 +23,7 @@ Where the {api_key} is needed, the user has to generate the key. This can be don
 ### Revoke Key
 It is not currently possible to revoke a key, but if you generate a new key, the old key will become invalid 
 
-### Storage 
+### Storage
 It is Preferred that this be stored locally to the user's system and not on your servers anywhere.
 
 
