@@ -58,7 +58,7 @@ Gets the latest version of a shortcut. No api key needed.
 
 Creates a new version for a shortcut. 
 
-Parameters:
+Parameters:<br>
 'version' : The version number
 'link' : Link to the shortcut on iCloud
 'changes' : List of changes for this version
