@@ -38,7 +38,7 @@ It is Preferred that this be stored locally to the user's system and not on your
 
 Simply retrieves a list of the user's shortcuts with their IDs and whether it's published or not.
 
-### Get latest Shortcut version
+### Get Latest Shortcut Version Info
 `GET 'api/v1/shortcuts/<shortcut_id>/versions/latest'`
 
 Gets the latest version of a shortcut. No api key needed.
