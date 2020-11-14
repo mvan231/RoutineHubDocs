@@ -1,6 +1,6 @@
 # RoutineHubDocs - API
 
-`Root URL: https://routinehub.co/api/v1/`
+Root URL: `https://routinehub.co/api/v1/`
 
 All API endpoints are based on the root url. 
 
@@ -18,11 +18,19 @@ All API endpoints are based on the root url.
 >   * [Publish Shortcut](#publish-shortcut)<br>
 >   * [Unpublish Shortcut](#unpublish-shortcut)<br>
 
+## Shortcut ID
+The <shortcut_id> is a numeric ID assigned to the shortcut on the site when a new shortcut is created.
+
+To find this ID after creating the shortcut on RoutineHub, tap/click on the address bar and view the 1-4 digit number.
+
+Example: https://routinehub.co/shortcut/7388/version/create<br>
+RoutineHub Shortcut ID: 7388
+
 
 ## API Key
 
 ### Key Generation
-Where the {api_key} is needed, the user has to generate the key. This can be done from the RoutineHub settings page. 
+Where <api_key> is needed, the user has to generate the key. This can be done from the RoutineHub settings page. 
 
 ### Revoke Key
 It is not currently possible to revoke a key, but if you generate a new key, the old key will become invalid 
