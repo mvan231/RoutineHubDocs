@@ -4,6 +4,8 @@
 
 All API endpoints are based on the root url. 
 
+__TOC__
+
 ## API Key
 
 ### Generation
@@ -19,7 +21,7 @@ It is Preferred that this be stored locally to the user's system and not on your
 ## Endpoints:
 
 ### List User's Shortcuts
-> GET 'api/v1/<api_key>/shortcuts'
+`GET 'api/v1/<api_key>/shortcuts'`
 
 Simply retrieves a list of the user's shortcuts with their IDs and whether it's published or not.
 
@@ -34,16 +36,16 @@ Parameters:
 'changes' : List of changes for this version
 
 ### Publish Shortcut
-> POST 'api/v1/<api_key>/shortcuts/<shortcut_id>/publish'
+`POST 'api/v1/<api_key>/shortcuts/<shortcut_id>/publish'`
 
 Changes the publish status of a shortcut to True.
 
 ### Unpublish Shortcut
-> POST 'api/v1/<api_key>/shortcuts/<shortcut_id>/unpublish'
+`POST 'api/v1/<api_key>/shortcuts/<shortcut_id>/unpublish'`
 
 Changes the publish status of a shortcut to False.
 
 ### Get latest Shortcut version
-> GET 'api/v1/shortcuts/<shortcut_id>/versions/latest'
+`GET 'api/v1/shortcuts/<shortcut_id>/versions/latest'`
 
 Gets the latest version of a shortcut. No api key needed.
