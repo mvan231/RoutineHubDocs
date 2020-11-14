@@ -4,8 +4,17 @@
 
 All API endpoints are based on the root url. 
 
-API Key:
-Where the {api_key} is needed, the user has to generate it from their RoutineHub settings page and provide it. It is Preferred that this be stored locally to the user's system and not on your servers anywhere.
+## API Key
+
+### Generation
+Where the {api_key} is needed, the user has to generate the key. This can be done from the RoutineHub settings page. 
+
+### Revoke Key
+It is not currently possible to revoke a key, but if you generate a new key, the old key will become invalid 
+
+### Storage 
+It is Preferred that this be stored locally to the user's system and not on your servers anywhere.
+
 
 ## Endpoints:
 
