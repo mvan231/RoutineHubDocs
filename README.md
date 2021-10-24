@@ -24,7 +24,7 @@ All API endpoints are based on the root url.
 ## Shortcut ID
 The <shortcut_id> is a numeric ID assigned to the shortcut on the site when a new shortcut is created.
 
-To find this ID after creating the shortcut on RoutineHub, tap/click on the address bar and view the 1-5 digit number.
+To find this ID after creating the shortcut on RoutineHub, tap/click on the address bar and view the numeric ID value.
 
 Example: https://routinehub.co/shortcut/7388/version/create<br>
 RoutineHub Shortcut ID: 7388
