@@ -15,7 +15,7 @@ All API endpoints are based on the root url.
 >   * [Storage](#storage)<br>
 > * [GET Endpoints](#get-endpoints)<br>
 >   * [List User Shortcuts](#list-user-shortcuts)<br>
->   * [Get Latest Shortcut Version Info](#get-latest-shortcut-version)<br>
+>   * [Get Latest Shortcut Version Info](#get-latest-shortcut-version-info)<br>
 > * [POST Endpoints](#post-endpoints)<br>
 >   * [Create Shortcut version](#create-shortcut-version)<br>
 >   * [Publish Shortcut](#publish-shortcut)<br>
